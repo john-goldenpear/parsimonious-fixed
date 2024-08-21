@@ -1,3 +1,11 @@
+==================
+Parsimonious-Fixed
+==================
+This fork of parsimonious v0.8.1 was created for compatability with the dydx-v3-python package and python 3.11... 
+dydx-v3-python requires parsimonious v0.8.1, or a range a versions clsoe to which use the outdate getargspec instead of getfullargspec.
+In this modified parsimonious v0.8.1 I have changed 'getargspec' to 'getfullargspec' in parsimonious/expressions.py  
+This is the only change made
+
 ============
 Parsimonious
 ============
